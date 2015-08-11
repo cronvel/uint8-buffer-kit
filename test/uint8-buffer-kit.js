@@ -73,6 +73,8 @@ describe( "URL-compatible Base64" , function() {
 	it( "should encode and decode a string using Base64 URL encoding" , function() {
 		
 		base64UrlTests( '' , '' ) ;
+		base64UrlTests( 'any carnal pleasure.' , 'YW55IGNhcm5hbCBwbGVhc3VyZS4' ) ;
+		base64UrlTests( 'any carnal pleasure' , 'YW55IGNhcm5hbCBwbGVhc3VyZQ' ) ;
 		base64UrlTests( 'Hello world' , 'SGVsbG8gd29ybGQ' ) ;
 		base64UrlTests( 'Hello world!' , 'SGVsbG8gd29ybGQh' ) ;
 		base64UrlTests( 'Hello world!!' , 'SGVsbG8gd29ybGQhIQ' ) ;
@@ -81,6 +83,12 @@ describe( "URL-compatible Base64" , function() {
 		base64UrlTests( 'H3110 \\/\\/021dZ! d4 `/4 1:|<3 d01142$?' , 'SDMxMTAgXC9cLzAyMWRaISBkNCBgLzQgMTp8PDMgZDAxMTQyJD8' ) ;
 		base64UrlTests( '^~#°%£µ*§$' , 'Xn4jwrAlwqPCtSrCpyQ' ) ;
 	} ) ;
+} ) ;
+
+
+
+describe( "Code..." , function() {
+	it( "... a full test suite" ) ;
 } ) ;
 
 
