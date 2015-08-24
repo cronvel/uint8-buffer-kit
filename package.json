@@ -1,6 +1,6 @@
 {
   "name": "uint8-buffer-kit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A small toolkit dealing with Uint8Array as Node.js buffer.",
   "main": "lib/uint8-buffer-kit.js",
   "directories": {
