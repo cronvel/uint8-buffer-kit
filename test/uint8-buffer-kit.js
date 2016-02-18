@@ -27,6 +27,8 @@
 /* jshint unused:false */
 /* global describe, it, before, after */
 
+"use strict" ;
+
 
 
 var u8buffer = require( '../lib/uint8-buffer-kit.js' ) ;

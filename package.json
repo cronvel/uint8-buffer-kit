@@ -1,6 +1,6 @@
 {
   "name": "uint8-buffer-kit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A small toolkit dealing with Uint8Array as Node.js buffer.",
   "main": "lib/uint8-buffer-kit.js",
   "directories": {
@@ -13,7 +13,7 @@
     "mocha": "^1.21.4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R dot"
   },
   "repository": {
     "type": "git",
